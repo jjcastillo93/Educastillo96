@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Neonderthaw&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: rgb(0, 39, 61);
+
+}
+.navbar-toggler{
+position: absolute;
+right: 5px;
+top: 20px;
+border: 1px solid rgb(255, 255, 255);
+color: rgba(255, 255, 255, 0);
+}
+.fa-solid{
+color: rgb(255, 255, 255);
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    }
+.nav-link:hover{
+color: rgba(9, 207, 246, 0.57);
+}
+.logoEdu{
+    width: 20vh;
+    position: absolute;
+    margin-left: 20px;
+}
+header{
+    position: relative;
+}
+.imgBienvenida{
+    width: 50vh;
+    margin-top: 35vh;
+}
+main{
+    margin-top: 10vh;
+}
+.tituloOhona{
+    color: white;
+    font-size: 10rem;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 1px solid white;
+}
+.tituloBienvenida{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7rem;
+    color: rgb(2, 0, 0);
+    border-bottom: 1px solid white;
+}
+.parrafoBienvenida{
+    color: white;
+    font-size: 1.3rem;
+}
+.bienvenidaImagenTexto{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+/*este espacio es para modificar iconos redes*/
+.redesFixes{
+    width: 10vh;
+    text-align: right;
+    margin: 0;
+    position: fixed;
+    right: 0;
+    top: 50%;
+}
+.redes a{
+font-size: 2rem;
+padding-right: 10px;
+margin: 0;
+padding: 5px;
+}
+.iconosRedes a{
+color: rgb(255, 255, 255);
+margin: 0;
+padding: 15px;
+}
+.fa-discord{
+padding-left: 2.5px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-tiktok{
+padding-left: 4.5px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-instagram{
+padding-left: 5px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-youtube{
+padding-left: 5.5px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-twitter{
+padding-left: 1px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-twitch{
+padding-left: 1px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.logoFooter{
+width: 5vh;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 10vh;
+}
+/*desde aqui se modifica pagina juegos*/
+.tituloPortadaJuegos{
+    font-size: 10rem;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+}
+.parrafoPortadaJuegos{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+padding-left: 40px;
+}
+.parrafoPortadaJuegos b{
+    font-size: 4rem;
+    color: rgb(8, 0, 0);
+    text-align: center;
+}
+.contenedorFlexJuegos{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.textoJuegos{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+}
+.contenedorJuegos{
+    border-radius: 20px;
+    width: 15%;
+    background-color: black;
+}
+.contenedorJuegos:hover{
+    border-radius: 20px;
+    width: 15%;
+    background-color: black;
+    -webkit-animation-name: fa-beat;
+    animation-name: fa-beat;
+-webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+-webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+-webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+-webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+-webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+}
+.tamañoJuego{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 20px;
+    background-color: black;
+}
+/*desde aqui se modifica la pagina horarios de juego*/
+.tituloPortadaHorario{
+    font-size: 10rem;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    margin-top: 20vh;
+}
+.contenedorHorario{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.horario{
+    margin: 5vh;
+    border-radius: 20px;
+}
+.horario:hover{
+    margin: 5vh;
+    border-radius: 20px;
+    background-color: white;
+    -webkit-animation-name: fa-beat-fade;
+    animation-name: fa-beat-fade;
+    -webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+    -webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+    -webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+    -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+    animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1)); 
+    box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+}
+.imagenHorario{
+    border-radius: 20px;
+}
+.textosHorario{
+    color: rgb(0, 39, 61);
+    padding: 10px;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem; 
+}
+/*aqui se modifica la pagina media*/
+.media{
+    margin: 50px;
+    margin-right: 100px;
+}
+.videos{
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.iframeJuego{
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+width: 120%;
+}
+/*desde aqui se modifica la pagina equipos*/
+.contenedorTabla{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+    }
+    .equiposTabla{
+        border: 1px solid rgba(255, 255, 255, 0);
+        margin: 50px;
+        width: 100vh;
+        height: 50vh;
+        box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+    }
+    .tablaExterior{
+        border: 1px solid rgba(255, 254, 254, 0);
+        margin: 50px;
+        box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+    }
+    .estiloTexto{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+    .estiloTexto:hover{
+        text-decoration: none;
+        list-style: none;
+        color: rgba(9, 207, 246, 0.57);
+    }
+    .tablaInterior{
+        border: 1px solid rgba(255, 254, 254, 0);
+        margin: 50px;
+        text-decoration: none;
+        list-style: none;
+        box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+    }
+    /*en esta pagina se modifica la pagina encuentrame*/
+    .tituloPortadaEncuentrame{
+        font-size: 10rem;
+        color: white;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+    }
+    .iframeMap{
+        border-radius: 20px;
+        border: 5px solid rgb(255, 255, 255);
+        box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+        margin-top: 80px;
+        width: 100%;
+    }
+@media (max-width: 992px){
+    .logoEdu{
+        width: 30%;
+        position: absolute;
+        left: 30%;
+    }
+    header{
+        position: relative;
+        margin: 0;
+    }
+    main{
+        margin-top:17%;
+        text-align: center;
+        padding: 30px;
+    }
+    .imgBienvenida{
+        width: 20vh;
+        margin: 0;
+        border-radius: 1px solid black;
+    }
+    .tituloOhona{
+        color: white;
+        font-size: 6rem;
+        font-family: 'Bebas Neue', cursive;
+        border-bottom: 1px solid white;
+    }
+    .tituloBienvenida{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3rem;
+        color: rgb(0, 0, 0);
+    }
+    /*este espacio es para modificar iconos redes*/
+.redesFixes{
+    width: 10vh;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.redes {
+font-size: 2rem;
+margin: 0 auto;
+padding: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.iconosRedes a{
+color: rgb(255, 255, 255);
+margin: 0;
+padding: 10px;
+}
+.fa-discord{
+padding-left: 2.5px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-tiktok{
+padding-left: 4.5px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-instagram{
+padding-left: 5px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-youtube{
+padding-left: 5.5px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-twitter{
+padding-left: 1px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.fa-twitch{
+padding-left: 1px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+}
+.logoFooter{
+width: 5vh;
+}
+    footer{
+        background-color: black;
+    }
+    /*desde aqui se modifica pagina juegos*/
+.tituloPortadaJuegos{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+.parrafoPortadaJuegos{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.parrafoPortadaJuegos b{
+    font-size: 2rem;
+    color: rgb(8, 0, 0);
+    text-align: center;
+}
+.contenedorFlexJuegos{
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.textoJuegos{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+}
+.contenedorJuegos{
+    border-radius: 20px;
+    width: 50%;
+}
+.contenedorJuegos:hover{
+    border-radius: 20px;
+    width: 51%;
+    background-color: black;
+    -webkit-animation-name: fa-beat;
+    animation-name: fa-beat;
+-webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+-webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+-webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+-webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+-webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+}
+.tamañoJuego{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 20px;
+    background-color: black;
+}
+/*desde aqui se modifica la pagina horarios de juego*/
+.tituloPortadaHorario{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+.contenedorHorario{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+.horario{
+    border-radius: 20px;
+    background-color: white;
+    -webkit-animation-name: fa-beat-fade;
+    animation-name: fa-beat-fade;
+    -webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+    -webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+    -webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+    -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+    animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1)); 
+    box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+}
+.imagenHorario{
+    border-radius: 20px;
+}
+.textosHorario{
+    color: rgb(0, 39, 61);
+    padding: 10px;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem; 
+}
+/*aqui se modifica la pagina media*/
+.media{
+margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.videos{
+    padding-top: 30px;
+}
+.iframeJuego{
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+    width: 80%;
+}
+.tituloPortadaEncuentrame{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+}
+.iframeMap{
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+    margin-top: 50px;
+    width: 100%;
+}
+}
