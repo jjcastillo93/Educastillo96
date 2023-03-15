@@ -310,6 +310,22 @@ width: 120%;
         margin-top: 80px;
         width: 100%;
     }
+    /*aqui se modifica la pagina contacto*/
+    .botonEnviar{
+        color: rgb(255, 255, 255);
+        background-color: rgba(9, 207, 246, 0.57);
+        border-color: rgba(9, 207, 246, 0.57);
+    }
+    .espacioBoton{
+        margin-bottom: 150px;
+        padding-left: 50px;
+    }
+    .form-control{
+        height: 25vh;
+    }
+    .formularioContancto{
+        padding-right: 50px;
+    }
 @media (max-width: 992px){
     .logoEdu{
         width: 30%;
