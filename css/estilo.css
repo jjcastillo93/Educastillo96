@@ -3,32 +3,25 @@
 *{
     box-sizing: content-box;
     font-family: 'Roboto', sans-serif;
-
 }
-
 body {
-    background-color: #000000; /* color de fondo */
-    background-image: url('ruta-de-tu-imagen.jpg'); /* imagen de fondo */
-    background-size: cover; /* ajuste de tamaño */
+    background-color: #000000;
     animation: animacion-fondo 7s ease-in-out infinite alternate;
-    /* nombre de la animación, duración, función de aceleración, repetición e inversión */
-  }
-  
-  @keyframes animacion-fondo {
+}
+@keyframes animacion-fondo {
     0% {
-      background-color: rgb(0, 39, 61); /* color de fondo inicial */
-      background-position: 0 0; /* posición de la imagen de fondo */
+    background-color: rgb(0, 39, 61);
+    background-position: 0 0;
     }
     50% {
-      background-color: rgb(0, 0, 0); /* color de fondo intermedio */
-      background-position: 50% 0; /* posición de la imagen de fondo */
+    background-color: rgb(0, 0, 0);
+    background-position: 50% 0;
     }
     100% {
-      background-color: rgb(0, 39, 61); /* color de fondo final */
-      background-position: 100% 0; /* posición de la imagen de fondo */
+    background-color: rgb(0, 39, 61);
+    background-position: 100% 0;
     }
-  }
-  
+}
 .navbar-toggler{
 position: absolute;
 right: 5px;
