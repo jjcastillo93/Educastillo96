@@ -5,10 +5,30 @@
     font-family: 'Roboto', sans-serif;
 
 }
-body{
-    background-color: rgb(0, 39, 61);
 
-}
+body {
+    background-color: #000000; /* color de fondo */
+    background-image: url('ruta-de-tu-imagen.jpg'); /* imagen de fondo */
+    background-size: cover; /* ajuste de tamaño */
+    animation: animacion-fondo 7s ease-in-out infinite alternate;
+    /* nombre de la animación, duración, función de aceleración, repetición e inversión */
+  }
+  
+  @keyframes animacion-fondo {
+    0% {
+      background-color: rgb(0, 39, 61); /* color de fondo inicial */
+      background-position: 0 0; /* posición de la imagen de fondo */
+    }
+    50% {
+      background-color: rgb(0, 0, 0); /* color de fondo intermedio */
+      background-position: 50% 0; /* posición de la imagen de fondo */
+    }
+    100% {
+      background-color: rgb(0, 39, 61); /* color de fondo final */
+      background-position: 100% 0; /* posición de la imagen de fondo */
+    }
+  }
+  
 .navbar-toggler{
 position: absolute;
 right: 5px;
@@ -52,6 +72,7 @@ main{
     font-size: 7rem;
     color: rgb(2, 0, 0);
     border-bottom: 1px solid white;
+    text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
 }
 .parrafoBienvenida{
     color: white;
@@ -132,6 +153,7 @@ footer{
     text-align: center;
     margin: 0;
 padding-left: 40px;
+text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
 }
 .parrafoPortadaJuegos b{
     font-size: 4rem;
