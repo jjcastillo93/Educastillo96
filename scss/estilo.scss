@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Neonderthaw&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+$color-primario: rgb(0, 39, 61);
+$color-secundario: #000000;
+$color-terceario: rgb(255, 255, 255);
+$color-iconos: rgb(255, 255, 255);
+$color-titulo-principal: rgb(255, 255, 255);
+$color-titulo-secundario: rgb(0, 0, 0);
+$color-parrafo: rgb(255, 255, 255);
+$color-footer: rgb(0, 0, 0);
+$color-sombra: rgba(9, 207, 246, 0.57);
+
+$font-size-grande: 10rem;
+$font-size-mediano: 5rem;
+$font-size-small: 1.3rem;
+
+$font-sizemovil-grande: 5rem;
+$font-sizemovil-mediano: 3rem;
+$font-sizemovil-small: 1.3rem;
+
+$justificacion-texto: center;
+$aliniacion: center;
+
+$tipografia-principal: 'Bebas Neue',cursive;
+$tipografia-secundaria: 'Roboto', sans-serif;
+
+*{
+box-sizing: content-box;
+font-family: $tipografia-principal;
+}
+body {
+background-color: $color-secundario;
+animation: animacion-fondo 7s ease-in-out infinite alternate;
+}
+@keyframes animacion-fondo {
+0% {
+background-color: $color-primario;
+background-position: 0 0;
+}
+50% {
+background-color: $color-secundario;
+background-position: 50% 0;
+}
+100% {
+background-color: $color-primario;
+background-position: 100% 0;
+}
+}
+.navbar-toggler{
+position: absolute;
+right: 5px;
+top: 20px;
+border: 1px solid $color-iconos;
+color: rgba(255, 255, 255, 0);
+}
+.fa-solid{
+color: $color-iconos;
+}
+.nav-link{
+color: $color-iconos;
+margin-left: 20px;
+}
+.nav-link:hover{
+color: rgba(9, 207, 246, 0.57);
+}
+.logoEdu{
+width: 20vh;
+position: absolute;
+margin-left: 20px;
+}
+header{
+position: relative;
+}
+.imgBienvenida{
+width: 50vh;
+margin-top: 35vh;
+}
+main{
+margin-top: 10vh;
+}
+.tituloOhona{
+color: $color-titulo-principal;
+font-size: $font-size-grande;
+font-family: $tipografia-principal;
+border-bottom: 1px solid $color-iconos;
+}
+.tituloBienvenida{
+font-family: $tipografia-principal;
+font-size: $font-size-mediano;
+color: $color-titulo-secundario;
+border-bottom: 1px solid $color-titulo-principal;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.parrafoBienvenida{
+color: $color-parrafo;
+font-size: $font-size-small;
+}
+.bienvenidaImagenTexto{
+align-items: $aliniacion;
+justify-content: $aliniacion;
+align-content: $aliniacion;
+margin: 0 auto;
+}
+/*este espacio es para modificar iconos redes*/
+.redesFixes{
+width: 10vh;
+text-align: right;
+margin: 0;
+position: fixed;
+right: 0;
+top: 50%;
+}
+.redes a{
+font-size: 2rem;
+padding-right: 10px;
+margin: 0;
+padding: 5px;
+}
+.iconosRedes a{
+color: $color-iconos;
+margin: 0;
+padding: 15px;
+}
+.fa-discord{
+padding-left: 2.5px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-tiktok{
+padding-left: 4.5px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-instagram{
+padding-left: 5px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-youtube{
+padding-left: 5.5px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-twitter{
+padding-left: 1px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-twitch{
+padding-left: 1px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.logoFooter{
+width: 5vh;
+}
+footer{
+    background-color: $color-footer;
+    text-align: $justificacion-texto;
+    color: $color-parrafo;
+    height: 10vh;
+}
+/*desde aqui se modifica pagina juegos*/
+.tituloPortadaJuegos{
+    font-size: $font-size-grande;
+    color: $color-titulo-principal;
+    text-align: $justificacion-texto;
+    font-family: $tipografia-principal;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+}
+.tituloSecundarioJuegos{
+    font-family: $tipografia-principal;
+    font-size: $font-size-mediano;
+    color: $color-titulo-secundario;
+    text-shadow: 2px 1px 5px $color-sombra;
+    text-align: $justificacion-texto;
+}
+.parrafoPortadaJuegos{
+    font-size: $font-size-small;
+    color: $color-parrafo;
+    text-align: $justificacion-texto;
+    margin: 0;
+padding-left: 40px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.parrafoPortadaJuegos b{
+    font-size: $font-size-small;
+    color: rgb(8, 0, 0);
+    text-align: $justificacion-texto;
+}
+.contenedorFlexJuegos{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: $aliniacion;
+    text-align: $justificacion-texto;
+    align-items: $aliniacion;
+    align-content: $aliniacion;
+}
+.textoJuegos{
+    font-size: $font-size-small;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 20px;
+    color: $color-parrafo;
+}
+.contenedorJuegos{
+    border-radius: 20px;
+    width: 15%;
+    background-color: $color-secundario;
+}
+.contenedorJuegos:hover{
+    border-radius: 20px;
+    width: 15%;
+    background-color: $color-secundario;
+    -webkit-animation-name: fa-beat;
+    animation-name: fa-beat;
+-webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+-webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+-webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+-webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+-webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    box-shadow: 2px 2px 8px 4px $color-sombra;
+}
+.tamañoJuego{
+    border: 1px solid $color-secundario;
+    width: 100%;
+    border-radius: 20px;
+    background-color: $color-secundario;
+}
+/*desde aqui se modifica la pagina horarios de juego*/
+.tituloPortadaHorario{
+    font-size: $font-size-grande;
+    color: $color-titulo-principal;
+    text-align: $justificacion-texto;
+    font-family: $tipografia-principal;
+    margin: 0;
+    padding: 0;
+    margin-top: 20vh;
+}
+.contenedorHorario{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: $aliniacion;
+    align-items: $aliniacion;
+    text-align: $justificacion-texto;
+    margin-bottom: 100px;
+}
+.horario{
+    margin: 5vh;
+    border-radius: 20px;
+}
+.horario:hover{
+    margin: 5vh;
+    border-radius: 20px;
+    background-color: $color-terceario;
+    -webkit-animation-name: fa-beat-fade;
+    animation-name: fa-beat-fade;
+    -webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+    -webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+    -webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+    -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+    animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1)); 
+    box-shadow: 2px 2px 8px 4px $color-sombra;
+}
+.imagenHorario{
+    border-radius: 20px;
+}
+.textosHorario{
+    color: $color-primario;
+    padding: 10px;
+    margin: 0;
+    font-family: $tipografia-principal;
+    font-size: $font-size-small; 
+}
+/*aqui se modifica la pagina media*/
+.media{
+    margin: 50px;
+    margin-right: 100px;
+}
+.videos{
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.iframeJuego{
+    border-radius: 20px;
+    border: 5px solid $color-terceario;
+    box-shadow: 2px 2px 8px 4px $color-sombra;
+width: 120%;
+}
+/*desde aqui se modifica la pagina equipos*/
+.contenedorTabla{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: $aliniacion;
+    text-align: $justificacion-texto;
+    margin-bottom: 100px;
+    }
+    .equiposTabla{
+        border: 1px solid rgba(255, 255, 255, 0);
+        margin: 50px;
+        width: 100vh;
+        height: 50vh;
+        box-shadow: 2px 2px 8px 4px $color-sombra;
+    }
+    .tablaExterior{
+        border: 1px solid rgba(255, 254, 254, 0);
+        margin: 50px;
+        box-shadow: 2px 2px 8px 4px $color-sombra;
+    }
+    .estiloTexto{
+        text-decoration: none;
+        list-style: none;
+        color: $color-parrafo;
+    }
+    .estiloTexto:hover{
+        text-decoration: none;
+        list-style: none;
+        color: $color-sombra;
+    }
+    .tablaInterior{
+        border: 1px solid rgba(255, 254, 254, 0);
+        margin: 50px;
+        text-decoration: none;
+        list-style: none;
+        box-shadow: 2px 2px 8px 4px $color-sombra;
+    }
+    /*en esta pagina se modifica la pagina encuentrame*/
+    .tituloPortadaEncuentrame{
+        font-size: $font-size-grande;
+        color: $color-titulo-principal;
+        text-align: $justificacion-texto;
+        font-family: $tipografia-principal;
+        margin: 0;
+        padding: 0;
+        margin-top: 10vh;
+    }
+    .iframeMap{
+        border-radius: 20px;
+        border: 5px solid $color-terceario;
+        box-shadow: 2px 2px 8px 4px $color-sombra;
+        margin-top: 80px;
+        width: 80%;
+        margin-bottom: 85px;
+    }
+    /*aqui se modifica la pagina contacto*/
+    .botonEnviar{
+        color: $color-terceario;
+        background-color: $color-sombra;
+        border-color: $color-sombra;
+    }
+    .espacioBoton{
+        margin-bottom: 150px;
+        padding-left: 50px;
+    }
+    .form-control{
+        height: 25vh;
+    }
+    .formularioContancto{
+        padding-right: 50px;
+    }
+@media (max-width: 992px){
+    .logoEdu{
+        width: 30%;
+        position: absolute;
+        left: 30%;
+    }
+    header{
+        position: relative;
+        margin: 0;
+    }
+    main{
+        margin-top:17%;
+        text-align: $justificacion-texto;
+        padding: 30px;
+    }
+    .imgBienvenida{
+        width: 20vh;
+        margin: 0;
+        border-radius: 1px solid $color-secundario;
+    }
+    .tituloOhona{
+        color: white;
+        font-size: $font-sizemovil-grande;
+        font-family: $tipografia-principal;
+        border-bottom: 1px solid $color-primario;
+    }
+    .tituloBienvenida{
+        font-family: $tipografia-principal;
+        font-size: $font-sizemovil-mediano;
+        color: $color-secundario;
+    }
+    /*este espacio es para modificar iconos redes*/
+.redesFixes{
+    width: 10vh;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+.redes {
+font-size: 2rem;
+margin: 0 auto;
+padding: 15px;
+display: flex;
+justify-content: $aliniacion;
+align-items: $aliniacion;
+align-content: $aliniacion;
+}
+.iconosRedes a{
+color: $color-terceario;
+margin: 0;
+padding: 10px;
+}
+.fa-discord{
+padding-left: 2.5px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-tiktok{
+padding-left: 4.5px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-instagram{
+padding-left: 5px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-youtube{
+padding-left: 5.5px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-twitter{
+padding-left: 1px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.fa-twitch{
+padding-left: 1px;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.logoFooter{
+width: 5vh;
+}
+    footer{
+        background-color: $color-secundario;
+    }
+    /*desde aqui se modifica pagina juegos*/
+.tituloPortadaJuegos{
+    font-size: $font-sizemovil-grande;
+    color: $color-titulo-principal;
+    text-align: $justificacion-texto;
+    font-family: $tipografia-principal;
+    margin: 0;
+    padding: 0;
+}
+.parrafoPortadaJuegos{
+    font-size: $font-sizemovil-small;
+    color: $color-parrafo;
+    text-align: $justificacion-texto;
+    margin: 0;
+    padding: 0;
+}
+.parrafoPortadaJuegos b{
+    font-size: $font-sizemovil-small;
+    color: $color-parrafo;
+    text-align: $justificacion-texto;
+}
+.contenedorFlexJuegos{
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: $aliniacion;
+    text-align: $justificacion-texto;
+    align-items: $aliniacion;
+    align-content: $aliniacion;
+    margin-top: 30px;
+}
+.textoJuegos{
+    font-size: $font-sizemovil-small;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 20px;
+    color: $color-parrafo;
+}
+.contenedorJuegos{
+    border-radius: 20px;
+    width: 50%;
+}
+.contenedorJuegos:hover{
+    border-radius: 20px;
+    width: 51%;
+    background-color: $color-secundario;
+    -webkit-animation-name: fa-beat;
+    animation-name: fa-beat;
+-webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+-webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+-webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+-webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+-webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+}
+.tamañoJuego{
+    border: 1px solid $color-secundario;
+    width: 100%;
+    border-radius: 20px;
+    background-color: $color-secundario;
+}
+/*desde aqui se modifica la pagina horarios de juego*/
+.tituloPortadaHorario{
+    font-size: 5rem;
+    color: $color-titulo-principal;
+    text-align: $justificacion-texto;
+    font-family: $tipografia-principal;
+    margin: 0;
+    padding: 0;
+}
+.contenedorHorario{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: $aliniacion;
+    align-items: $aliniacion;
+    text-align: $justificacion-texto;
+    margin-bottom: 0;
+}
+.horario{
+    border-radius: 20px;
+    background-color: $color-terceario;
+    -webkit-animation-name: fa-beat-fade;
+    animation-name: fa-beat-fade;
+    -webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+    -webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+    -webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+    -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+    animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1)); 
+    box-shadow: 2px 2px 8px 4px $color-sombra;
+}
+.imagenHorario{
+    border-radius: 20px;
+}
+.textosHorario{
+    color: $color-primario;
+    padding: 10px;
+    margin: 0;
+    font-family: $tipografia-principal;
+    font-size: $font-sizemovil-small; 
+}
+/*aqui se modifica la pagina media*/
+.media{
+margin: 0 auto;
+    justify-content: $aliniacion;
+    align-items: $aliniacion;
+}
+.videos{
+    padding-top: 30px;
+}
+.iframeJuego{
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px 4px $color-sombra;
+    width: 80%;
+}
+.tituloPortadaEncuentrame{
+    font-size: $font-sizemovil-grande;
+    color: $color-titulo-principal;
+    text-align: $justificacion-texto;
+    font-family: $tipografia-principal;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+}
+.iframeMap{
+    border-radius: 20px;
+    border: 5px solid $color-terceario;
+    box-shadow: 2px 2px 8px 4px $color-sombra;
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 0;
+}
+}
