@@ -1,51 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Neonderthaw&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import "variables.scss";
+@import "reset.scss";
+@import "body.scss";
 
-$color-primario: rgb(0, 39, 61);
-$color-secundario: #000000;
-$color-terceario: rgb(255, 255, 255);
-$color-iconos: rgb(255, 255, 255);
-$color-titulo-principal: rgb(255, 255, 255);
-$color-titulo-secundario: rgb(0, 0, 0);
-$color-parrafo: rgb(255, 255, 255);
-$color-footer: rgb(0, 0, 0);
-$color-sombra: rgba(9, 207, 246, 0.57);
-
-$font-size-grande: 10rem;
-$font-size-mediano: 5rem;
-$font-size-small: 1.3rem;
-
-$font-sizemovil-grande: 5rem;
-$font-sizemovil-mediano: 3rem;
-$font-sizemovil-small: 1.3rem;
-
-$justificacion-texto: center;
-$aliniacion: center;
-
-$tipografia-principal: 'Bebas Neue',cursive;
-$tipografia-secundaria: 'Roboto', sans-serif;
-
-*{
-box-sizing: content-box;
-font-family: $tipografia-principal;
-}
-body {
-background-color: $color-secundario;
-animation: animacion-fondo 7s ease-in-out infinite alternate;
-}
-@keyframes animacion-fondo {
-0% {
-background-color: $color-primario;
-background-position: 0 0;
-}
-50% {
-background-color: $color-secundario;
-background-position: 50% 0;
-}
-100% {
-background-color: $color-primario;
-background-position: 100% 0;
-}
-}
 .navbar-toggler{
 position: absolute;
 right: 5px;
@@ -94,6 +51,7 @@ text-shadow: 2px 1px 5px $color-sombra;
 .parrafoBienvenida{
 color: $color-parrafo;
 font-size: $font-size-small;
+font-family: $tipografia-secundaria;
 }
 .bienvenidaImagenTexto{
 align-items: $aliniacion;
@@ -176,7 +134,6 @@ footer{
     color: $color-parrafo;
     text-align: $justificacion-texto;
     margin: 0;
-padding-left: 40px;
 text-shadow: 2px 1px 5px $color-sombra;
 }
 .parrafoPortadaJuegos b{
