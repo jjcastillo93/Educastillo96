@@ -1,37 +1,37 @@
 .imgBienvenida{
-    width: 50vh;
-    margin-top: 35vh;
-    }
-    .tituloOhona{
-    color: $color-titulo-principal;
-    font-size: $font-size-grande;
-    font-family: $tipografia-principal;
-    border-bottom: 1px solid $color-iconos;
-    }
-    .tituloBienvenida{
-    font-family: $tipografia-principal;
-    font-size: $font-size-mediano;
-    color: $color-titulo-secundario;
-    border-bottom: 1px solid $color-titulo-principal;
-    text-shadow: 2px 1px 5px $color-sombra;
-    }
-    .parrafoBienvenida{
-    color: $color-parrafo;
-    font-size: $font-size-small;
-    font-family: $tipografia-secundaria;
-    }
-    .bienvenidaImagenTexto{
-    align-items: $aliniacion;
-    justify-content: $aliniacion;
-    align-content: $aliniacion;
-    margin: 0 auto;
-    }
+width: 50vh;
+margin-top: 35vh;
+}
+.tituloOhona{
+color: $color-titulo-principal;
+font-size: $font-size-grande;
+font-family: $tipografia-principal;
+border-bottom: 1px solid $color-iconos;
+}
+.tituloBienvenida{
+font-family: $tipografia-principal;
+font-size: $font-size-mediano;
+color: $color-titulo-secundario;
+border-bottom: 1px solid $color-titulo-principal;
+text-shadow: 2px 1px 5px $color-sombra;
+}
+.parrafoBienvenida{
+color: $color-parrafo;
+font-size: $font-size-small;
+font-family: $tipografia-secundaria;
+}
+.bienvenidaImagenTexto{
+align-items: $aliniacion;
+justify-content: $aliniacion;
+align-content: $aliniacion;
+margin: 0 auto;
+}
 
     @media (max-width: 992px){
         .imgBienvenida{
-            width: 20vh;
-            margin: 0;
             border-radius: 1px solid $color-secundario;
+            margin: 0;
+            width: 30vh;
         }
         .tituloOhona{
             color: white;

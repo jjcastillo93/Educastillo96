@@ -1,7 +1,7 @@
 /*aqui se modifica la pagina media*/
 .media{
     margin: 50px;
-    margin-right: 100px;
+    margin-right: 80px;
 }
 .videos{
     padding-top: 30px;
@@ -12,23 +12,24 @@
     border-radius: 20px;
     border: 5px solid $color-terceario;
     box-shadow: 2px 2px 8px 4px $color-sombra;
-width: 120%;
+    width: 90%;
 }
 
 @media (max-width: 992px){
 /*aqui se modifica la pagina media*/
 .media{
     margin: 0 auto;
-        justify-content: $aliniacion;
-        align-items: $aliniacion;
+    justify-content: $aliniacion;
+    align-items: $aliniacion;
+    margin-right: 30px;
     }
     .videos{
-        padding-top: 30px;
+    padding-top: 30px;
     }
     .iframeJuego{
-        border-radius: 20px;
-        border: 5px solid rgb(255, 255, 255);
-        box-shadow: 2px 2px 8px 4px $color-sombra;
-        width: 80%;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 8px 4px $color-sombra;
+    width: 80%;
     }
 }

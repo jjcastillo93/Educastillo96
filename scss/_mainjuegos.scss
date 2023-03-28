@@ -6,18 +6,18 @@
     font-family: $tipografia-principal;
     margin: 0;
     padding: 0;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 .contenedorFlexJuegos{
     width: 100%;
     height: 45vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: $aliniacion;
-    text-align: $justificacion-texto;
-    align-items: $aliniacion;
-    align-content: $aliniacion;
+    display: map-get($elementos-flex, display);
+    flex-wrap: map-get($elementos-flex, wrap);
+    flex-direction: map-get($elementos-flex, row);
+    justify-content: map-get($elementos-flex, center);
+    text-align: map-get($elementos-flex, center);
+    align-items: map-get($elementos-flex, center);
+    align-content: map-get($elementos-flex, center);
 }
 .textoJuegos{
     font-size: $font-size-small;
@@ -30,6 +30,7 @@
 .contenedorJuegos{
     border-radius: 20px;
     width: 15%;
+    padding: 0;
     background-color: $color-secundario;
 }
 .contenedorJuegos:hover{
@@ -70,13 +71,13 @@
 .contenedorFlexJuegos{
     width: 100%;
     height: 150%;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: $aliniacion;
-    text-align: $justificacion-texto;
-    align-items: $aliniacion;
-    align-content: $aliniacion;
+    display: map-get($elementos-flex, display);
+    flex-wrap: map-get($elementos-flex, nowrap);
+    flex-direction: map-get($elementos-flex, column);
+    justify-content: map-get($elementos-flex, center);
+    text-align: map-get($elementos-flex, center);
+    align-items: map-get($elementos-flex, center);
+    align-content: map-get($elementos-flex, center);
     margin-top: 30px;
 }
 .textoJuegos{

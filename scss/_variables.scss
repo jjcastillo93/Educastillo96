@@ -1,3 +1,17 @@
+$elementos-flex:(
+    display: flex,
+    row: row,
+    column: column,
+    wrap: wrap,
+    nowrap: nowrap,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    center: center,
+    right: right,
+    left: left,
+);
+
 $color-primario: rgb(0, 39, 61);
 $color-secundario: #000000;
 $color-terceario: rgb(255, 255, 255);
