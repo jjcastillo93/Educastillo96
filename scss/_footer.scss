@@ -1,0 +1,18 @@
+footer{
+background-color: $color-footer;
+text-align: $justificacion-texto;
+color: $color-parrafo;
+height: 10vh;
+    .logoFooter{
+    width: 5vh;
+    }
+}
+
+@media (max-width: 992px){
+    footer{
+        background-color: $color-secundario;
+        .logoFooter{
+        width: 5vh;
+            }
+        }
+}

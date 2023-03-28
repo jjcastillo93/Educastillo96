@@ -1,0 +1,34 @@
+/*aqui se modifica la pagina media*/
+.media{
+    margin: 50px;
+    margin-right: 100px;
+}
+.videos{
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.iframeJuego{
+    border-radius: 20px;
+    border: 5px solid $color-terceario;
+    box-shadow: 2px 2px 8px 4px $color-sombra;
+width: 120%;
+}
+
+@media (max-width: 992px){
+/*aqui se modifica la pagina media*/
+.media{
+    margin: 0 auto;
+        justify-content: $aliniacion;
+        align-items: $aliniacion;
+    }
+    .videos{
+        padding-top: 30px;
+    }
+    .iframeJuego{
+        border-radius: 20px;
+        border: 5px solid rgb(255, 255, 255);
+        box-shadow: 2px 2px 8px 4px $color-sombra;
+        width: 80%;
+    }
+}

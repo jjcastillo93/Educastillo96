@@ -1,0 +1,118 @@
+/*desde aqui se modifica pagina juegos*/
+.tituloPortadaJuegos{
+    font-size: $font-size-grande;
+    color: $color-titulo-principal;
+    text-align: $justificacion-texto;
+    font-family: $tipografia-principal;
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+}
+.contenedorFlexJuegos{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: $aliniacion;
+    text-align: $justificacion-texto;
+    align-items: $aliniacion;
+    align-content: $aliniacion;
+}
+.textoJuegos{
+    font-size: $font-size-small;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 20px;
+    color: $color-parrafo;
+}
+.contenedorJuegos{
+    border-radius: 20px;
+    width: 15%;
+    background-color: $color-secundario;
+}
+.contenedorJuegos:hover{
+    border-radius: 20px;
+    width: 15%;
+    background-color: $color-secundario;
+    -webkit-animation-name: fa-beat;
+    animation-name: fa-beat;
+-webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+-webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+-webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+-webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+-webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    box-shadow: 2px 2px 8px 4px $color-sombra;
+}
+.tamañoJuego{
+    border: 1px solid $color-secundario;
+    width: 100%;
+    border-radius: 20px;
+    background-color: $color-secundario;
+}
+
+@media (max-width: 992px){
+    /*desde aqui se modifica pagina juegos*/
+.tituloPortadaJuegos{
+    font-size: $font-sizemovil-grande;
+    color: $color-titulo-principal;
+    text-align: $justificacion-texto;
+    font-family: $tipografia-principal;
+    margin: 0;
+    padding: 0;
+}
+.contenedorFlexJuegos{
+    width: 100%;
+    height: 150%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: $aliniacion;
+    text-align: $justificacion-texto;
+    align-items: $aliniacion;
+    align-content: $aliniacion;
+    margin-top: 30px;
+}
+.textoJuegos{
+    font-size: $font-sizemovil-small;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 20px;
+    color: $color-parrafo;
+}
+.contenedorJuegos{
+    border-radius: 20px;
+    width: 50%;
+}
+.contenedorJuegos:hover{
+    border-radius: 20px;
+    width: 51%;
+    background-color: $color-secundario;
+    -webkit-animation-name: fa-beat;
+    animation-name: fa-beat;
+-webkit-animation-delay: var(--fa-animation-delay, 0s);
+    animation-delay: var(--fa-animation-delay, 0s);
+-webkit-animation-direction: var(--fa-animation-direction, normal);
+    animation-direction: var(--fa-animation-direction, normal);
+-webkit-animation-duration: var(--fa-animation-duration, 1s);
+    animation-duration: var(--fa-animation-duration, 1s);
+-webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+-webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    animation-timing-function: var(--fa-animation-timing, ease-in-out);
+    box-shadow: 2px 2px 8px 4px rgba(9, 207, 246, 0.57);
+}
+.tamañoJuego{
+    border: 1px solid $color-secundario;
+    width: 100%;
+    border-radius: 20px;
+    background-color: $color-secundario;
+}
+}

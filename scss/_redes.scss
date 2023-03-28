@@ -1,0 +1,94 @@
+/*este espacio es para modificar iconos redes*/
+.redesFixes{
+width: 10vh;
+text-align: right;
+margin: 0;
+position: fixed;
+right: 0;
+top: 50%;
+    .redes{
+    font-size: 2rem;
+    padding-right: 10px;
+    margin: 0;
+    padding: 5px;
+        .iconosRedes a{
+        color: $color-iconos;
+        margin: 0;
+        padding: 15px;
+            .fa-discord{
+            padding-left: 2.5px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-tiktok{
+            padding-left: 4.5px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-instagram{
+            padding-left: 5px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-youtube{
+            padding-left: 5.5px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-twitter{
+            padding-left: 1px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-twitch{
+            padding-left: 1px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 992px){
+/*este espacio es para modificar iconos redes*/
+.redesFixes{
+width: 10vh;
+text-align: center;
+margin: 0 auto;
+position: relative;
+    .redes {
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: $aliniacion;
+    align-items: $aliniacion;
+    align-content: $aliniacion;
+    .iconosRedes a{
+        color: $color-terceario;
+        margin: 0;
+        padding: 10px;
+        .fa-discord{
+            padding-left: 2.5px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-tiktok{
+            padding-left: 4.5px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-instagram{
+            padding-left: 5px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-youtube{
+            padding-left: 5.5px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-twitter{
+            padding-left: 1px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+            .fa-twitch{
+            padding-left: 1px;
+            text-shadow: 2px 1px 5px $color-sombra;
+            }
+        }
+    }
+}
+}
