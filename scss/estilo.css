@@ -24,6 +24,14 @@ body {
     background-position: 100% 0;
   }
 }
+@keyframes zoom_objeto {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 20vh;
+  }
+}
 header {
   position: relative;
 }
@@ -53,9 +61,22 @@ header {
   width: 20vh;
   position: absolute;
   margin-left: 20px;
+  animation-name: zoom_objeto;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-delay: 0s;
 }
 
 @media (max-width: 992px) {
+  @keyframes zoom_objeto {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 15vh;
+    }
+  }
   header {
     position: relative;
     margin: 0;
@@ -64,6 +85,11 @@ header {
     width: 30%;
     position: absolute;
     left: 30%;
+    animation-name: zoom_objeto;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 0s;
   }
 }
 .imgBienvenida {
