@@ -29,6 +29,70 @@
                         }
                     }
                 }
+                .fondoTabla1{
+                    &:hover{
+                    background-image: url(../assets/img/stream\ deck.png);
+                    background-size: cover;
+                    background-position: 50%;
+                    margin: 0 auto;
+                    }
+                }
+                .fondoTabla2{
+                    &:hover{
+                    background-image: url(../assets/img/Notebook\ Msi\ GF65\ THIN.png);
+                    background-size: cover;
+                    background-position: 50%;
+                    }
+                }
+                .fondoTabla3{
+                    &:hover{
+                    background-image: url(../assets/img/Monitor\ Msi\ Optix\ G273.png);
+                    background-size: cover;
+                    background-position: 50%;
+                    }
+                }
+                .fondoTabla4{
+                    &:hover{
+                    background-image: url(../assets/img/Camara\ StreamCam.png);
+                    background-size: cover;
+                    background-position: 50%;
+                    }
+                }
+                .fondoTabla5{
+                    &:hover{
+                    background-image: url(../assets/img/Micrófono\ Seiren\ Mini.png);
+                    background-size: cover;
+                    background-position: 50%;
+                    }
+                }
+                .fondoTabla6{
+                    &:hover{
+                    background-image: url(../assets/img/Capturadora\ HD60S+.png);
+                    background-size: cover;
+                    background-position: 50%;
+                    }
+                }
+                .fondoTabla7{
+                    &:hover{
+                    background-image: url(../assets/img/Auriculares\ Razer\ Kraken.png);
+                    background-size: cover;
+                    background-position: 50%;
+                    }
+                }
+                .fondoTabla8{
+                    &:hover{
+                    background-image: url(../assets/img/Mouse\ Logitech\ G\ Pro\ Hero.png);
+                    background-size: cover;
+                    background-position: 50%;
+                    }
+                }
+                .fondoTabla9{
+                    &:hover{
+                    background-image: url(../assets/img/Teclado\ Marvo.png);
+                    background-size: cover;
+                    background-position: 50%;
+                    }
+                }
             }
         }
     }

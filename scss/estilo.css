@@ -6,24 +6,11 @@
 }
 
 body {
-  background-color: #000000;
-  animation: animacion-fondo 7s ease-in-out infinite alternate;
+  background-image: url(../assets/img/FONDO.webp);
+  background-position: 50%;
+  background-size: cover;
 }
 
-@keyframes animacion-fondo {
-  0% {
-    background-color: rgb(0, 39, 61);
-    background-position: 0 0;
-  }
-  50% {
-    background-color: #000000;
-    background-position: 50% 0;
-  }
-  100% {
-    background-color: rgb(0, 39, 61);
-    background-position: 100% 0;
-  }
-}
 @keyframes zoom_objeto {
   0% {
     width: 0;
@@ -413,6 +400,52 @@ header {
   list-style: none;
   color: rgba(9, 207, 246, 0.57);
 }
+.contenedorTabla .equiposTabla .tablaExterior .fondoTabla1:hover {
+  background-image: url(../assets/img/stream\ deck.png);
+  background-size: cover;
+  background-position: 50%;
+  margin: 0 auto;
+}
+.contenedorTabla .equiposTabla .tablaExterior .fondoTabla2:hover {
+  background-image: url(../assets/img/Notebook\ Msi\ GF65\ THIN.png);
+  background-size: cover;
+  background-position: 50%;
+}
+.contenedorTabla .equiposTabla .tablaExterior .fondoTabla3:hover {
+  background-image: url(../assets/img/Monitor\ Msi\ Optix\ G273.png);
+  background-size: cover;
+  background-position: 50%;
+}
+.contenedorTabla .equiposTabla .tablaExterior .fondoTabla4:hover {
+  background-image: url(../assets/img/Camara\ StreamCam.png);
+  background-size: cover;
+  background-position: 50%;
+}
+.contenedorTabla .equiposTabla .tablaExterior .fondoTabla5:hover {
+  background-image: url(../assets/img/Micrófono\ Seiren\ Mini.png);
+  background-size: cover;
+  background-position: 50%;
+}
+.contenedorTabla .equiposTabla .tablaExterior .fondoTabla6:hover {
+  background-image: url(../assets/img/Capturadora\ HD60S+.png);
+  background-size: cover;
+  background-position: 50%;
+}
+.contenedorTabla .equiposTabla .tablaExterior .fondoTabla7:hover {
+  background-image: url(../assets/img/Auriculares\ Razer\ Kraken.png);
+  background-size: cover;
+  background-position: 50%;
+}
+.contenedorTabla .equiposTabla .tablaExterior .fondoTabla8:hover {
+  background-image: url(../assets/img/Mouse\ Logitech\ G\ Pro\ Hero.png);
+  background-size: cover;
+  background-position: 50%;
+}
+.contenedorTabla .equiposTabla .tablaExterior .fondoTabla9:hover {
+  background-image: url(../assets/img/Teclado\ Marvo.png);
+  background-size: cover;
+  background-position: 50%;
+}
 
 /*en esta pagina se modifica la pagina encuentrame*/
 .iframeMap {
@@ -585,6 +618,7 @@ main {
   text-align: center;
   margin: 0;
   text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
+  font-family: "Bebas Neue", cursive;
 }
 
 @media (max-width: 992px) {

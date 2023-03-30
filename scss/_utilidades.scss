@@ -14,7 +14,8 @@ main{
         color: $color-parrafo;
         text-align: $justificacion-texto;
         margin: 0;
-    text-shadow: 2px 1px 5px $color-sombra;
+        text-shadow: 2px 1px 5px $color-sombra;
+        font-family: $tipografia-principal ;
     }
 
     @media (max-width: 992px){

@@ -1,18 +1,5 @@
 body {
-background-color: $color-secundario;
-animation: animacion-fondo 7s ease-in-out infinite alternate;
-}
-@keyframes animacion-fondo {
-    0% {
-    background-color: $color-primario;
-    background-position: 0 0;
-    }
-    50% {
-    background-color: $color-secundario;
-    background-position: 50% 0;
-    }
-    100% {
-    background-color: $color-primario;
-    background-position: 100% 0;
-    }
+    background-image: url(../assets/img/FONDO.webp);
+    background-position: 50%;
+    background-size: cover;
     }
