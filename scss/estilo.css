@@ -9,6 +9,7 @@ body {
   background-image: url(../assets/img/FONDO.webp);
   background-position: 50%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @keyframes zoom_objeto {
@@ -84,14 +85,14 @@ header {
   margin-top: 35vh;
 }
 
-.tituloOhona {
+.tituloOhona, .tituloPrincipalError404 {
   color: rgb(255, 255, 255);
   font-size: 10rem;
   font-family: "Bebas Neue", cursive;
   border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-.tituloBienvenida {
+.tituloBienvenida, .tituloSecundarioError404 {
   font-family: "Bebas Neue", cursive;
   font-size: 5rem;
   color: rgb(0, 0, 0);
@@ -99,7 +100,7 @@ header {
   text-shadow: 2px 1px 5px rgba(9, 207, 246, 0.57);
 }
 
-.parrafoBienvenida {
+.parrafoBienvenida, .parrafoError404 {
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
@@ -118,13 +119,13 @@ header {
     margin: 0;
     width: 30vh;
   }
-  .tituloOhona {
+  .tituloOhona, .tituloPrincipalError404 {
     color: white;
     font-size: 5rem;
     font-family: "Bebas Neue", cursive;
     border-bottom: 1px solid rgb(255, 255, 255);
   }
-  .tituloBienvenida {
+  .tituloBienvenida, .tituloSecundarioError404 {
     font-family: "Bebas Neue", cursive;
     font-size: 3rem;
     color: #000000;
@@ -471,7 +472,7 @@ header {
   }
 }
 /*aqui se modifica la pagina contacto*/
-.botonEnviar {
+.botonEnviar, .botonRegresar404 {
   color: rgb(255, 255, 255);
   background-color: rgba(9, 207, 246, 0.57);
   border-color: rgba(9, 207, 246, 0.57);
@@ -506,6 +507,37 @@ footer .logoFooter {
   }
   footer .logoFooter {
     width: 5vh;
+  }
+}
+.contenedor404 {
+  height: 85vh;
+}
+
+.contenedorTexto404 {
+  margin-top: 250px;
+}
+
+.tituloPrincipalError404 {
+  font-size: 7rem;
+}
+
+.textoBoton404 {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.imagen404 {
+  width: 50vh;
+  margin-top: 65px;
+}
+
+@media (max-width: 992px) {
+  .contenedorTexto404 {
+    margin-top: 0px;
+  }
+  .imagen404 {
+    width: 30vh;
+    margin-top: 0px;
   }
 }
 /*este espacio es para modificar iconos redes*/

@@ -1,0 +1,38 @@
+.contenedor404{
+    height: 85vh;
+}
+.contenedorTexto404{
+    margin-top: 250px
+}
+.tituloPrincipalError404{
+    @extend .tituloOhona;
+    font-size: 7rem
+    
+}
+.tituloSecundarioError404{
+    @extend .tituloBienvenida;
+}
+.parrafoError404{
+    @extend .parrafoBienvenida;
+}
+.botonRegresar404{
+    @extend .botonEnviar;
+}
+.textoBoton404{
+    text-decoration: none;
+    color: $color-parrafo;
+}
+.imagen404{
+    width: 50vh;
+    margin-top: 65px;
+}
+
+@media (max-width: 992px){
+    .contenedorTexto404{
+        margin-top: 0px
+    }
+    .imagen404{
+        width: 30vh;
+        margin-top: 0px;
+    }
+}
