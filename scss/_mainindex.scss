@@ -44,4 +44,11 @@ margin: 0 auto;
             font-size: $font-sizemovil-mediano;
             color: $color-secundario;
         }
+        .parrafoBienvenida{
+            color: $color-parrafo;
+            font-size: $font-size-small;
+            font-family: $tipografia-secundaria;
+            width: 30vh;
+            margin: auto;
+            }
     }

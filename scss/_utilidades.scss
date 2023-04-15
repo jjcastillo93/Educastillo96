@@ -24,6 +24,13 @@ main{
             text-align: $justificacion-texto;
             padding: 30px;
         }
+        .tituloSecundarioJuegos{
+            font-family: $tipografia-principal;
+            font-size: 1.5rem;
+            color: $color-titulo-secundario;
+            text-shadow: 2px 1px 5px $color-sombra;
+            text-align: $justificacion-texto;
+        }
         .parrafoPortadaJuegos{
             font-size: $font-sizemovil-small;
             color: $color-parrafo;

@@ -4,3 +4,35 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     }
+@media (max-width: 2000px){
+    body {
+        background-image: url(../assets/img/FONDO\ w2000.webp);
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+}
+@media (max-width: 1200px){
+    body {
+        background-image: url(../assets/img/FONDO\ w1200.webp);
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+}
+@media (max-width: 800px){
+    body {
+        background-image: url(../assets/img/FONDO\ w800.webp);
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+}
+@media (max-width: 400px){
+    body {
+        background-image: url(../assets/img/FONDO\ w400.webp);
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+}
